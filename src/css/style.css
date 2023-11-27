@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  color: #232631 !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-padding {
+  padding: 96px 0px;
+}
+
+.bg-blue {
+  background-color: #F6FBFF;
+}
+
+.bold-600 {
+  font-weight: 600 !important;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.heading-1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #232631;
+}
+
+.heading-2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #232631;
+}
+
+.heading-3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232631;
+}
+
+.heading-4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #232631;
+}
+
+.text-desc-1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #374151;
+}
+
+.text-desc-2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #656565;
+}
+
+.text-desc-3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #656565;
+}
+
+.txt-blue {
+  color: #1853B1;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.navbar a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12pt;
+}
+
+.navbar a:hover {
+  text-decoration: none !important;
+}
+
+.navbar li {
+  margin-right: 30px;
+}
+
+footer ul {
+  padding-left: unset;
+}
+footer li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+footer p {
+  margin-bottom: unset;
+}
+footer .mw-350 {
+  max-width: 350px;
+}
+footer .contact {
+  background-color: #1853B1;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+footer .contact p {
+  white-space: nowrap;
+}
+footer .section-padding {
+  padding-bottom: unset;
+}
+footer span {
+  color: #3B82F6;
+}
+footer .social-media a {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  footer .flex-col {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
