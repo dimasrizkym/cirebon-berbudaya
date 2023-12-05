@@ -10,7 +10,7 @@ $color-text-desc-1: #374151;  // desc title, paraghrap
 $color-text-desc-2: #656565; // desc card
 $color-stroke: #6D7280; // border color
 $bg-color-white: #FFFFFF; // bg section white
-$bg-color-blue: #F6FBFF; //bg color
+$bg-color-gray: #F9F9F9; //bg color
 $font-family-poppins: 'Poppins', sans-serif;
 
 // set properties
@@ -34,25 +34,53 @@ img {
 .section-padding {
   padding: 96px 0px;
 }
-.bg-blue{
-  background-color: $bg-color-blue;
+.bg-gray{
+  background-color: $bg-color-gray;
 }
 .bold-600{
   font-weight: 600 !important;
 }
+.mb-24{
+  margin-bottom: 24px;
+}
+.mb-32{
+  margin-bottom: 32px;
+}
 .mb-48 {
   margin-bottom: 48px;
 }
+.mb-64 {
+  margin-bottom: 64px;
+}
 .bg-primary-80 {
   background-color: $color-primary-80;
+}
+// button
+a.btn, button.btn{
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%;
+  padding: 16px 20px;
+  text-decoration: none!important;
 }
 .btn.btn-primary-80 {
   background-color: $color-primary-80;
   color: $bg-color-white;
 }
-.btn.btn-primary-80:hover {
+.btn.btn-primary-80:hover, .btn.btn-primary-80:hover {
   background-color: $color-primary-90;
   color: $bg-color-white;
+}
+.btn.btn-secondary  {
+  background-color: $bg-color-white;
+  color: $color-text-desc-1;
+}
+.btn.btn-secondary:hover, .btn.btn-secondary:focus {
+  background-color: #f1f1f1;
+  color: $color-text-desc-1;
 }
 
 // text
@@ -139,6 +167,17 @@ img {
 
 // index.html
 // =====================================
+// header
+header {
+  div.container h1{
+    max-width: 800px;
+    color: $bg-color-white; 
+  }
+  p {
+    color: $bg-color-white;
+  }
+}
+// end header
 
 // footer
 footer {
