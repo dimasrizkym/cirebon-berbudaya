@@ -36,6 +36,20 @@ img {
   margin-bottom: 48px;
 }
 
+.bg-primary-80 {
+  background-color: #1853B1;
+}
+
+.btn.btn-primary-80 {
+  background-color: #1853B1;
+  color: #FFFFFF;
+}
+
+.btn.btn-primary-80:hover {
+  background-color: #003486;
+  color: #FFFFFF;
+}
+
 .heading-1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -110,11 +124,13 @@ img {
 .navbar a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 12pt;
+  font-size: 16px;
+  color: #FFFFFF;
 }
 
 .navbar a:hover {
-  text-decoration: none !important;
+  text-decoration: underline;
+  color: #FFFFFF !important;
 }
 
 .navbar li {
@@ -154,6 +170,21 @@ footer span {
 }
 footer .social-media a {
   margin-left: 20px;
+}
+
+#searcHArticle .title {
+  max-width: 800px;
+  margin-bottom: 32px;
+}
+#searcHArticle .search {
+  max-width: 800px;
+  width: 100%;
+}
+#searcHArticle .search .filter-search {
+  width: 100%;
+}
+#searcHArticle .search .filter-search input {
+  padding: 8px 12px;
 }
 
 @media (max-width: 768px) {
