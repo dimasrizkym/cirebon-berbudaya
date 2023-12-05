@@ -48,6 +48,10 @@ img {
   margin-bottom: 64px;
 }
 
+.gap-32 {
+  gap: 32px;
+}
+
 .bg-primary-80 {
   background-color: #1853B1;
 }
@@ -176,6 +180,17 @@ header div.container h1 {
 }
 header p {
   color: #FFFFFF;
+}
+
+.sectionBudayaCirebon .item-budaya-cirebon {
+  height: 390px;
+  width: 271px;
+  padding: 0;
+}
+.sectionBudayaCirebon .item-budaya-cirebon img {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
 }
 
 footer ul {

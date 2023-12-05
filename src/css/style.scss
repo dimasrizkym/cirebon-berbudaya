@@ -52,6 +52,9 @@ img {
 .mb-64 {
   margin-bottom: 64px;
 }
+.gap-32{
+  gap: 32px;
+}
 .bg-primary-80 {
   background-color: $color-primary-80;
 }
@@ -178,6 +181,21 @@ header {
   }
 }
 // end header
+
+// section budaya cirebon
+.sectionBudayaCirebon {
+  .item-budaya-cirebon {
+    height: 390px;
+    width: 271px;
+    padding: 0;
+
+    img {
+      width: fit-content;
+      height: 100%;
+    }
+  }
+}
+// end section budaya cirebon
 
 // footer
 footer {
