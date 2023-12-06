@@ -60,29 +60,28 @@ img {
 }
 // button
 a.btn, button.btn{
-  display: inline-block;
-  padding: 8px 20px;
+  padding: 12px 20px;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 170%;
-  padding: 16px 20px;
   text-decoration: none!important;
+  height: fit-content;
 }
 .btn.btn-primary-80 {
   background-color: $color-primary-80;
   color: $bg-color-white;
 }
-.btn.btn-primary-80:hover, .btn.btn-primary-80:hover {
-  background-color: $color-primary-90;
-  color: $bg-color-white;
+.btn.btn-primary-80:hover, .btn.btn-primary-80:active, .btn.btn-primary-80:focus  {
+  background-color: $color-primary-90!important;
+  color: $bg-color-white!important;
 }
 .btn.btn-secondary  {
   background-color: $bg-color-white;
   color: $color-text-desc-1;
 }
-.btn.btn-secondary:hover, .btn.btn-secondary:focus {
-  background-color: #f1f1f1;
+.btn.btn-secondary:hover, .btn.btn-secondary:active, .btn.btn-secondary:focus {
+  background-color: #f1f1f1!important;
   color: $color-text-desc-1;
 }
 
@@ -220,6 +219,13 @@ header {
 }
 // end section artikel
 
+// start section newsletter
+.sectionNewsletter {
+  div.bg-primary-80 {
+    padding: 32px;
+  }
+}
+// end section newsletter
 
 // footer
 footer {
