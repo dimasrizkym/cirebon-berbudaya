@@ -154,6 +154,10 @@ a.btn, button.btn {
   color: #1853B1;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .container {
   max-width: 1200px;
 }
@@ -195,6 +199,13 @@ header p {
 
 .sectionEvent .swiper .swiper-slide {
   max-width: 408px !important;
+}
+
+.sectionArticle .img-item-artikel {
+  width: 160px;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 footer ul {

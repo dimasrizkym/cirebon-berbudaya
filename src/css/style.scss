@@ -146,6 +146,9 @@ a.btn, button.btn{
 .txt-blue{
   color: $color-primary-80;
 }
+.text-justify{
+  text-align: justify;
+}
 
 // container
 .container{
@@ -206,6 +209,16 @@ header {
   }
 }
 // end section event
+
+// start section artikel
+.sectionArticle {
+  .img-item-artikel {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+  }
+}
+// end section artikel
 
 
 // footer
