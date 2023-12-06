@@ -22,7 +22,7 @@ $font-family-poppins: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 a{
-  text-decoration: none;
+  text-decoration: none!important;
 }
 a:hover{
   text-decoration: underline!important;
@@ -196,6 +196,17 @@ header {
   }
 }
 // end section budaya cirebon
+
+// start section event
+.sectionEvent {
+  .swiper {
+    .swiper-slide {
+      max-width: 408px!important;
+    }
+  }
+}
+// end section event
+
 
 // footer
 footer {
