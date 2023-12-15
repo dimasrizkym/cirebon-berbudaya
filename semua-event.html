@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cirebon Berbudaya</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cirebon Berbudaya</title>
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-</head>
-
-<body>
-
-  <!-- START : HEADER -->
-  <header>
+  <body>
     <!-- START : NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-primary-80 fixed-top py-2">
+
+    <nav class="navbar navbar-expand-lg bg-primary-80 sticky-top py-3 z-3">
       <div class="container d-flex justify-content-between">
         <a class="navbar-brand" href="index.html">
-          <img src="src/images/logo.svg" alt="Cirebon Berbudaya">
+          <img src="src/images/logo.svg" alt="Cirebon Berbudaya" />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -36,218 +43,308 @@
             <li class="nav-item">
               <a class="nav-link" href="semua-event.html">Event</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#informasi">Kontak</a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- END : NAVBAR -->
-    <!-- START : HEAD -->
-    <div class="container">
-      <div class="section-padding" id="searcHArticle">
-        <div class="d-flex flex-column justify-content-between align-items-center">
-          <div class="title">
-            <h2 class="heading-2 text-center">Semua Event</h2>
-            <p class="text-desc-1 text-center">Semua event yang berkaitan tentang cirebon yang berbudaya</p>
-          </div>
-          <div class="search">
-            <div class="filter-search d-flex gap-2 mb-3">
-              <input type="text" placeholder="Cari event"
-                class="form-control">
-              <button type="search" class="btn btn-primary-80">Search</button>
+    <!-- START : HEADER -->
+    <header>
+      <!-- START : HEAD -->
+      <div class="container">
+        <div class="section-padding" id="searcHArticle">
+          <div
+            class="d-flex flex-column justify-content-between align-items-center"
+          >
+            <div class="title">
+              <h2 class="heading-2 text-center">Semua Event</h2>
+              <p class="text-desc-1 text-center">
+                Semua event yang berkaitan tentang cirebon yang berbudaya
+              </p>
+            </div>
+            <div class="search">
+              <div class="filter-search d-flex gap-2 mb-3">
+                <input
+                  type="text"
+                  placeholder="Cari event"
+                  class="form-control"
+                />
+                <button type="search" class="btn btn-primary-80">Search</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- END : HEAD -->
-  </header>
-  <!-- END : HEADER -->
+      <!-- END : HEAD -->
+    </header>
+    <!-- END : HEADER -->
 
-  <!-- START : MAIN -->
-  <main>
-    <!-- START : SECTION LIST ARTIKEL -->
-    <section class="bg-white sectionListEvent">
-      <div class="container section-padding">
-        <div class="row">
-          <div class="col-sm-12 col-md-4 px-4">
-            <div class="card border-0 mb-24">
-              <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-              <div class="card-body p-0">
-                <div class="d-flex justify-content-between align-items-center mt-3">
-                  <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                  <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
+    <!-- START : MAIN -->
+    <main>
+      <!-- START : SECTION LIST ARTIKEL -->
+      <section class="bg-white sectionListEvent">
+        <div class="container section-padding">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 px-4">
+              <div class="card border-0 mb-24">
+                <img
+                  src="src/images/image-artikel.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0">
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <p class="text-desc-2 bold-600 m-0">Senin, 17 Okt 2023</p>
+                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
+                  </div>
+                  <h3 class="mt-2">
+                    <a href="detail-event.html" class="heading-3">Nama Event</a>
+                  </h3>
+                  <p class="text-desc-2 text-justify">
+                    Pantai adalah suatu tempat destinasi wisata yang sangat
+                    diminati oleh masyarakat baik itu berasal
+                  </p>
                 </div>
-                <h3 class="mt-2">
-                  <a href="detail-event.html" class="heading-3">Nama Event</a>
-                </h3>
-                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 px-4">
+              <div class="card border-0 mb-24">
+                <img
+                  src="src/images/image-artikel.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0">
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <p class="text-desc-2 bold-600 m-0">Senin, 17 Okt 2023</p>
+                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
+                  </div>
+                  <h3 class="mt-2">
+                    <a href="detail-event.html" class="heading-3">Nama Event</a>
+                  </h3>
+                  <p class="text-desc-2 text-justify">
+                    Pantai adalah suatu tempat destinasi wisata yang sangat
+                    diminati oleh masyarakat baik itu berasal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 px-4">
+              <div class="card border-0 mb-24">
+                <img
+                  src="src/images/image-artikel.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0">
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <p class="text-desc-2 bold-600 m-0">Senin, 17 Okt 2023</p>
+                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
+                  </div>
+                  <h3 class="mt-2">
+                    <a href="detail-event.html" class="heading-3">Nama Event</a>
+                  </h3>
+                  <p class="text-desc-2 text-justify">
+                    Pantai adalah suatu tempat destinasi wisata yang sangat
+                    diminati oleh masyarakat baik itu berasal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 px-4">
+              <div class="card border-0 mb-24">
+                <img
+                  src="src/images/image-artikel.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0">
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <p class="text-desc-2 bold-600 m-0">Senin, 17 Okt 2023</p>
+                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
+                  </div>
+                  <h3 class="mt-2">
+                    <a href="detail-event.html" class="heading-3">Nama Event</a>
+                  </h3>
+                  <p class="text-desc-2 text-justify">
+                    Pantai adalah suatu tempat destinasi wisata yang sangat
+                    diminati oleh masyarakat baik itu berasal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 px-4">
+              <div class="card border-0 mb-24">
+                <img
+                  src="src/images/image-artikel.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0">
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <p class="text-desc-2 bold-600 m-0">Senin, 17 Okt 2023</p>
+                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
+                  </div>
+                  <h3 class="mt-2">
+                    <a href="detail-event.html" class="heading-3">Nama Event</a>
+                  </h3>
+                  <p class="text-desc-2 text-justify">
+                    Pantai adalah suatu tempat destinasi wisata yang sangat
+                    diminati oleh masyarakat baik itu berasal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 px-4">
+              <div class="card border-0 mb-24">
+                <img
+                  src="src/images/image-artikel.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0">
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <p class="text-desc-2 bold-600 m-0">Senin, 17 Okt 2023</p>
+                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
+                  </div>
+                  <h3 class="mt-2">
+                    <a href="detail-event.html" class="heading-3">Nama Event</a>
+                  </h3>
+                  <p class="text-desc-2 text-justify">
+                    Pantai adalah suatu tempat destinasi wisata yang sangat
+                    diminati oleh masyarakat baik itu berasal
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 px-4">
+              <div class="card border-0 mb-24">
+                <img
+                  src="src/images/image-artikel.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0">
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <p class="text-desc-2 bold-600 m-0">Senin, 17 Okt 2023</p>
+                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
+                  </div>
+                  <h3 class="mt-2">
+                    <a href="detail-event.html" class="heading-3">Nama Event</a>
+                  </h3>
+                  <p class="text-desc-2 text-justify">
+                    Pantai adalah suatu tempat destinasi wisata yang sangat
+                    diminati oleh masyarakat baik itu berasal
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-4 px-4">
-            <div class="card border-0 mb-24">
-              <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-              <div class="card-body p-0">
-                <div class="d-flex justify-content-between align-items-center mt-3">
-                  <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                  <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
+        </div>
+      </section>
+      <!-- END : SECTION LIST ARTIKEL -->
+    </main>
+    <!-- END : MAIN -->
+
+    <!-- START : FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row section-padding justify-content-center">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="src/images/logo-dark.svg" alt="Cirebon Berbudaya" />
+            <p class="text-desc-1 mw-350 mt-3 mb-3">
+              Media Informasi dan Promosi kebudayaan cirebon
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12">
+            <p class="heading-4 bold-600 mb-4">Cirebon Budaya</p>
+            <ul>
+              <li><a href="#" class="text-desc-1 mb-2">Tentang</a></li>
+              <li><a href="#" class="text-desc-1 mb-2">Kontak</a></li>
+              <li><a href="#" class="text-desc-1">Artikel</a></li>
+              <li><a href="#" class="text-desc-1">Event</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12">
+            <p class="heading-4 bold-600 mb-4">Informasi</p>
+            <ul>
+              <li><a href="#" class="text-desc-1">Menjadi Partner</a></li>
+              <li><a href="#" class="text-desc-1">Menjadi Relawan</a></li>
+              <li><a href="#" class="text-desc-1">Join Komunitas</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12">
+            <p class="heading-4 bold-600 mb-4">Dukungan</p>
+            <ul>
+              <li><a href="#" class="text-desc-1">Kebijakan Privasi</a></li>
+              <li><a href="#" class="text-desc-1">Kritik & Saran</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-lg-5 col-md-7 col-sm-12 contact">
+              <div class="row p-3">
+                <div class="col-md-6 col-sm-12" id="col-email">
+                  <p class="text-desc-1 bold-600 text-white mb-2">Email</p>
+                  <p class="text-desc-2 text-white">cirebonbudaya@cmail.com</p>
                 </div>
-                <h3 class="mt-2">
-                  <a href="detail-event.html" class="heading-3">Nama Event</a>
-                </h3>
-                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
+                <div class="col-md-6 col-sm-12">
+                  <p
+                    class="text-desc-1 bold-600 text-white mb-2 ms-md-5 ms-sm-auto"
+                  >
+                    Telephone
+                  </p>
+                  <p class="text-desc-2 text-white ms-md-5 ms-sm-auto">
+                    0214 8888 9999
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-4 px-4">
-            <div class="card border-0 mb-24">
-              <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-              <div class="card-body p-0">
-                <div class="d-flex justify-content-between align-items-center mt-3">
-                  <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                  <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
-                </div>
-                <h3 class="mt-2">
-                  <a href="detail-event.html" class="heading-3">Nama Event</a>
-                </h3>
-                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
-              </div>
+          <hr class="txt-blue" />
+          <div
+            class="container d-flex justify-content-between align-items-center pb-3 flex-col"
+          >
+            <div class="copyright">
+              © Copyright 2022 <a href="#">STIKOM POLTEK CIREBON</a>
             </div>
-          </div>  
-          <div class="col-sm-12 col-md-4 px-4">
-            <div class="card border-0 mb-24">
-              <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-              <div class="card-body p-0">
-                <div class="d-flex justify-content-between align-items-center mt-3">
-                  <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                  <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
-                </div>
-                <h3 class="mt-2">
-                  <a href="detail-event.html" class="heading-3">Nama Event</a>
-                </h3>
-                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
-              </div>
+            <div class="social-media">
+              <a href="#"
+                ><img
+                  src="src/images/instagram.png"
+                  alt="instagram cirebon berbudaya"
+              /></a>
+              <a href="#"
+                ><img
+                  src="src/images/linkedIn.png"
+                  alt="linkedin cirebon berbudaya"
+              /></a>
+              <a href="#"
+                ><img
+                  src="src/images/youtube.png"
+                  alt="youtube cirebon berbudaya"
+              /></a>
             </div>
-          </div>  
-          <div class="col-sm-12 col-md-4 px-4">
-            <div class="card border-0 mb-24">
-              <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-              <div class="card-body p-0">
-                <div class="d-flex justify-content-between align-items-center mt-3">
-                  <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                  <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
-                </div>
-                <h3 class="mt-2">
-                  <a href="detail-event.html" class="heading-3">Nama Event</a>
-                </h3>
-                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
-              </div>
-            </div>
-          </div>  
-          <div class="col-sm-12 col-md-4 px-4">
-            <div class="card border-0 mb-24">
-              <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-              <div class="card-body p-0">
-                <div class="d-flex justify-content-between align-items-center mt-3">
-                  <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                  <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
-                </div>
-                <h3 class="mt-2">
-                  <a href="detail-event.html" class="heading-3">Nama Event</a>
-                </h3>
-                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
-              </div>
-            </div>
-          </div>  
-          <div class="col-sm-12 col-md-4 px-4">
-            <div class="card border-0 mb-24">
-              <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-              <div class="card-body p-0">
-                <div class="d-flex justify-content-between align-items-center mt-3">
-                  <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                  <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
-                </div>
-                <h3 class="mt-2">
-                  <a href="detail-event.html" class="heading-3">Nama Event</a>
-                </h3>
-                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
-              </div>
-            </div>
-          </div>  
+          </div>
         </div>
       </div>
-    </section>
-    <!-- END : SECTION LIST ARTIKEL -->
-  </main>
-  <!-- END : MAIN -->
-
-  <!-- START : FOOTER -->
-  <footer>
-    <div class="container">
-      <div class="row section-padding justify-content-center">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <img src="src/images/logo-dark.svg" alt="Cirebon Berbudaya">
-          <p class="text-desc-1 mw-350 mt-3 mb-3">Media Informasi dan Promosi kebudayaan cirebon</p>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-12">
-          <p class="heading-4 bold-600 mb-4">Cirebon Budaya</p>
-          <ul>
-            <li><a href="#" class="text-desc-1 mb-2">Tentang</a></li>
-            <li><a href="#" class="text-desc-1 mb-2">Kontak</a></li>
-            <li><a href="#" class="text-desc-1">Artikel</a></li>
-            <li><a href="#" class="text-desc-1">Event</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-12">
-          <p class="heading-4 bold-600 mb-4">Informasi</p>
-          <ul>
-            <li><a href="#" class="text-desc-1">Menjadi Partner</a></li>
-            <li><a href="#" class="text-desc-1">Menjadi Relawan</a></li>
-            <li><a href="#" class="text-desc-1">Join Komunitas</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-12">
-          <p class="heading-4 bold-600 mb-4">Dukungan</p>
-          <ul>
-            <li><a href="#" class="text-desc-1">Kebijakan Privasi</a></li>
-            <li><a href="#" class="text-desc-1">Kritik & Saran</a></li>
-          </ul>
-        </div>
-        <div class="row">
-          <div class="col-lg-5 col-md-7 col-sm-12 contact">
-            <div class="row p-3">
-              <div class="col-md-6 col-sm-12" id="col-email">
-                <p class="text-desc-1 bold-600 text-white mb-2">Email</p>
-                <p class="text-desc-2 text-white">cirebonbudaya@cmail.com</p>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <p class="text-desc-1 bold-600 text-white mb-2 ms-md-5 ms-sm-auto">Telephone</p>
-                <p class="text-desc-2 text-white ms-md-5 ms-sm-auto">0214 8888 9999</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="txt-blue">
-        <div class="container d-flex justify-content-between align-items-center pb-3 flex-col">
-          <div class="copyright">
-            © Copyright 2022 <a href="#">STIKOM POLTEK CIREBON</a>
-          </div>
-          <div class="social-media">
-            <a href="#"><img src="src/images/instagram.png" alt="instagram cirebon berbudaya"></a>
-            <a href="#"><img src="src/images/linkedIn.png" alt="linkedin cirebon berbudaya"></a>
-            <a href="#"><img src="src/images/youtube.png" alt="youtube cirebon berbudaya"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- END : FOOTER -->
-  <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="src/js/main.js"></script>
-</body>
-
+    </footer>
+    <!-- END : FOOTER -->
+    <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
 </html>

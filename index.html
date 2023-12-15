@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cirebon Berbudaya</title>
+    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cirebon Berbudaya</title>
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-</head>
-
-<body>
-
-  <!-- START : HEADER -->
-  <header>
+  <body>
     <!-- START : NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-primary-80 fixed-top py-3">
+
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary-80 sticky-top py-3 z-3">
       <div class="container d-flex justify-content-between">
         <a class="navbar-brand" href="index.html">
-          <img src="src/images/logo.svg" alt="Cirebon Berbudaya">
+          <img src="src/images/logo.svg" alt="Cirebon Berbudaya" />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler z-100"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,348 +42,494 @@
               <a class="nav-link" href="index.html">Homepage</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="semua-artikel.html">Artikel</a>
+              <a class="nav-link" href="./articles/index.html">Artikel</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="semua-event.html">Event</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#informasi">Kontak</a>
+              <a class="nav-link" href="./events/index.html">Event</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- END : NAVBAR -->
-    <!-- START : HEAD -->
-    <div class="bg-primary-80">
-      <div class="container section-padding d-flex justify-content-center flex-column align-items-center">
-        <h1 class="heading-1 text-center mb-24">Media Informasi dan Promosi Kebudayaan Cirebon</h1>
-        <p class="text-center mb-64">Memperkenalkan Pusat-Pusat Kebudayaan dan Warisan Bersejarah Cirebon, hadirkan diri Anda dalam perjalanan yang memukau untuk menggali kearifan lokal yang tak ternilai dan keajaiban budaya yang telah melekat erat dalam sejarah kota Cirebon</p>
-        <a href="#" class="btn btn-secondary">Lihat Lebih Lanjut</a>
-      </div>
-    </div>
-    <!-- END : HEAD -->
-  </header>
-  <!-- END : HEADER -->
 
-  <!-- START : MAIN -->
-  <main>
-    <!-- START : SECTION BUDAYA CIREBON -->
-    <section class="bg-gray sectionBudayaCirebon">
-      <div class="container section-padding ">
-        <h2 class="heading-2 text-center mb-64">Budaya Cirebon</h2>
-        <div class="row row-cols-4 gap-32 justify-content-center">
-          <div class="col item-budaya-cirebon position-relative">
-            <a href="detail-artikel.html">
-              <img src="src/images/image-item-budaya.jpg" alt="">
-              <div class="position-absolute bottom-0 end-0 p-3">
-                <h4 class="heading-4 text-white">abc</h4>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur</p>
-              </div>
-            </a>
-          </div>
-          <div class="col item-budaya-cirebon position-relative">
-            <a href="detail-artikel.html">
-              <img src="src/images/image-item-budaya.jpg" alt="">
-              <div class="position-absolute bottom-0 end-0 p-3">
-                <h4 class="heading-4 text-white">abc</h4>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur</p>
-              </div>
-            </a>
-          </div>
-          <div class="col item-budaya-cirebon position-relative">
-            <a href="detail-artikel.html">
-              <img src="src/images/image-item-budaya.jpg" alt="">
-              <div class="position-absolute bottom-0 end-0 p-3">
-                <h4 class="heading-4 text-white">abc</h4>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur</p>
-              </div>
-            </a>
-          </div>
-          <div class="col item-budaya-cirebon position-relative">
-            <a href="detail-artikel.html">
-              <img src="src/images/image-item-budaya.jpg" alt="">
-              <div class="position-absolute bottom-0 end-0 p-3">
-                <h4 class="heading-4 text-white">abc</h4>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur</p>
-              </div>
-            </a>
-          </div>
-          <div class="col item-budaya-cirebon position-relative">
-            <a href="detail-artikel.html">
-              <img src="src/images/image-item-budaya.jpg" alt="">
-              <div class="position-absolute bottom-0 end-0 p-3">
-                <h4 class="heading-4 text-white">abc</h4>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur</p>
-              </div>
-            </a>
-          </div>
-          <div class="col item-budaya-cirebon position-relative">
-            <a href="detail-artikel.html">
-              <img src="src/images/image-item-budaya.jpg" alt="">
-              <div class="position-absolute bottom-0 end-0 p-3">
-                <h4 class="heading-4 text-white">abc</h4>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur</p>
-              </div>
-            </a>
-          </div>
-          <div class="col item-budaya-cirebon position-relative">
-            <a href="detail-artikel.html">
-              <img src="src/images/image-item-budaya.jpg" alt="">
-              <div class="position-absolute bottom-0 end-0 p-3">
-                <h4 class="heading-4 text-white">abc</h4>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur</p>
-              </div>
-            </a>
-          </div>
-          <div class="col item-budaya-cirebon position-relative">
-            <a href="detail-artikel.html">
-              <img src="src/images/image-item-budaya.jpg" alt="">
-              <div class="position-absolute bottom-0 end-0 p-3">
-                <h4 class="heading-4 text-white">abc</h4>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur</p>
-              </div>
-            </a>
-          </div>
+    <!-- START : HEADER -->
+
+    <header>
+      <!-- START : HEAD -->
+      <div class="bg-primary-80">
+        <div
+          class="container section-padding d-flex justify-content-center flex-column align-items-center"
+        >
+          <h1 class="heading-1 text-center mb-24">
+            Media Informasi dan Promosi Kebudayaan Cirebon
+          </h1>
+          <p class="text-center mb-64">
+            Memperkenalkan Pusat-Pusat Kebudayaan dan Warisan Bersejarah
+            Cirebon, hadirkan diri Anda dalam perjalanan yang memukau untuk
+            menggali kearifan lokal yang tak ternilai dan keajaiban budaya yang
+            telah melekat erat dalam sejarah kota Cirebon
+          </p>
+          <a class="btn btn-secondary" id="learn-more">Lihat Lebih Lanjut</a>
         </div>
       </div>
-    </section>
-    <!-- END : SECTION BUDAYA CIREBON -->
+      <!-- END : HEAD -->
+    </header>
+    <!-- END : HEADER -->
 
-    <!-- START : SECTION EVENT -->
-    <section class="bg-white sectionEvent">
-      <div class="container section-padding">
-        <div class="d-flex justify-content-between align-content-center mb-48">
-          <h2 class="heading-2">Event</h2>
-          <a href="#" class="btn btn-primary-80">Lihat Semua</a>
-        </div>
-        <div class="swiper swiperEvent">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card border-0">
-                <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-                <div class="card-body p-0">
-                  <div class="d-flex justify-content-between align-items-center mt-3">
-                    <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
-                  </div>
-                  <h3 class="mt-2">
-                    <a href="detail-event.html" class="heading-3">Nama Event</a>
-                  </h3>
-                  <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
+    <!-- START : MAIN -->
+    <main>
+      <!-- START : SECTION BUDAYA CIREBON -->
+      <section class="bg-gray sectionBudayaCirebon">
+        <div class="container section-padding" id="budaya-cirebon">
+          <h2 class="heading-2 text-center mb-64">Budaya Cirebon</h2>
+          <div class="row row-cols-4 gap-32 justify-content-center">
+            <div class="col item-budaya-cirebon position-relative">
+              <a href="./articles/tari-topeng.html">
+                <img src="src/images/tari-topeng.jpg" alt=""/>
+                <div class="position-absolute bottom-0 end-0 p-3">
+                  <h4 class="heading-4 text-white">Tari Topeng Cirebon</h4>
+                  <p class="text-white">
+                    Tari Tradisional Tari Topeng Cirebon
+                  </p>
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="swiper-slide">
-              <div class="card border-0">
-                <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-                <div class="card-body p-0">
-                  <div class="d-flex justify-content-between align-items-center mt-3">
-                    <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
-                  </div>
-                  <h3 class="mt-2">
-                    <a href="detail-event.html" class="heading-3">Nama Event</a>
-                  </h3>
-                  <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
+            <div class="col item-budaya-cirebon position-relative">
+              <a href="./articles/kasepuhan.html">
+                <img src="src/images/kasepuhan.jpg" alt="" />
+                <div class="position-absolute bottom-0 end-0 p-3">
+                  <h4 class="heading-4 text-white">Keraton Kasepuhan</h4>
+                  <p class="text-white">
+                    Keraton Peninggalan Kesultanan Cirebon
+                  </p>
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="swiper-slide">
-              <div class="card border-0">
-                <img src="src/images/image-artikel.png" class="card-img-top" alt="...">
-                <div class="card-body p-0">
-                  <div class="d-flex justify-content-between align-items-center mt-3">
-                    <p class="text-desc-2 bold-600 m-0 ">Senin, 17 Okt 2023</p>
-                    <p class="text-desc-2 bold-600 m-0">08.00 - 23.00</p>
-                  </div>
-                  <h3 class="mt-2">
-                    <a href="detail-event.html" class="heading-3">Nama Event</a>
-                  </h3>
-                  <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal</p>
+            <div class="col item-budaya-cirebon position-relative">
+              <a href="./articles/nadran.html">
+                <img src="src/images/nadran.jpg" alt="" />
+                <div class="position-absolute bottom-0 end-0 p-3">
+                  <h4 class="heading-4 text-white">Adat Nadran Cirebon</h4>
+                  <p class="text-white">
+                    Acara Adat Nadranan di Cirebon
+                  </p>
                 </div>
-              </div>
+              </a>
+            </div>
+            <div class="col item-budaya-cirebon position-relative">
+              <a href="./articles/sunyaragi.html">
+                <img src="src/images/sunyaragi.jpg" alt="" />
+                <div class="position-absolute bottom-0 end-0 p-3">
+                  <h4 class="heading-4 text-white">Gua Sunyaragi</h4>
+                  <p class="text-white">
+                    Tempat Bersejarah Gua Sunyaragi
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="col item-budaya-cirebon position-relative">
+              <a href="./articles/sintren.html">
+                <img src="src/images/sintren.jpg" alt="" />
+                <div class="position-absolute bottom-0 end-0 p-3">
+                  <h4 class="heading-4 text-white">Tari Sintren Cirebon</h4>
+                  <p class="text-white">
+                    Seni Tari Tradisional Sintren dari Cirebon
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col item-budaya-cirebon position-relative">
+              <a href="./articles/burok.html">
+                <img src="src/images/burok.jpg" alt="" />
+                <div class="position-absolute bottom-0 end-0 p-3">
+                  <h4 class="heading-4 text-white">Kesenian Burok Cirebon</h4>
+                  <p class="text-white">
+                    Kesenian Pertunjukan Burok Dari Cirebon
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="col item-budaya-cirebon position-relative">
+              <a href="./articles/buyut.html">
+                <img src="src/images/buyut.jpg" alt="" />
+                <div class="position-absolute bottom-0 end-0 p-3">
+                  <h4 class="heading-4 text-white">Memayu Buyut Trusmi</h4>
+                  <p class="text-white">
+                    Tradisi Arak - Arakan di Trusmi Cirebon
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="col item-budaya-cirebon position-relative">
+              <a href="./articles/mega-mendung.html">
+                <img src="src/images/mega-mendung.jpg" alt="" />
+                <div class="position-absolute bottom-0 end-0 p-3">
+                  <h4 class="heading-4 text-white">Batik Mega Mendung</h4>
+                  <p class="text-white">
+                    Batik Warisan Seni dari Cirebon 
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- END : SECTION EVENT -->
+      </section>
+      <!-- END : SECTION BUDAYA CIREBON -->
 
-    <!-- START : SECTION ARTICLE -->
-    <section class="bg-white sectionArticle">
-      <div class="container section-padding">
-        <div class="d-flex justify-content-between align-content-center mb-48">
-          <h2 class="heading-2">Artikel</h2>
-          <a href="#" class="btn btn-primary-80">Lihat Semua</a>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 px-4">
-            <div class="card-blog">
-              <div class="card border-0">
-                <img src="src/images/Image-artikel.png" class="card-img-top" alt="...">
-                <div class="card-body p-0">
-                  <div class="text-desc-2 mt-3 bold-600">Admin • 10 Oktober 2022</div>
-                  <div class="heading-3 mt-3 mb-3">
-                    <h3>
-                      <a href="detail-blog.html" class="heading-3">Menjaga dan Merawat Pantai Kejawanan</a>
+      <!-- START : SECTION EVENT -->
+      <section class="bg-white sectionEvent">
+        <div class="container section-padding">
+          <div
+            class="d-flex justify-content-between align-content-center mb-48"
+          >
+            <h2 class="heading-2">Event</h2>
+            <a href="#" class="btn btn-primary-80">Lihat Semua</a>
+          </div>
+          <div class="swiper swiperEvent">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card border-0">
+                  <img
+                    src="src/images/event.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body p-0">
+                    <div
+                      class="d-flex justify-content-between align-items-center mt-3"
+                    >
+                      <p class="text-desc-2 bold-600 m-0">22 Oktober 2022</p>
+                      <p class="text-desc-2 bold-600 m-0">07.00 - 19.00 WIB</p>
+                    </div>
+                    <h3 class="mt-2">
+                      <a href="./events/detail-event.html" class="heading-3"
+                        >Arak - Arakan Trusmi</a
+                      >
                     </h3>
+                    <p class="text-desc-2 text-justify">
+                      Acara Arak-arakan pada tanggal 22 Oktober 2022 adalah perayaan
+                      meriah yang diadakan mulai pukul 07.00 hingga 19.00. Merupakan
+                      kesempatan untuk memeriahkan suasana dengan parade yang penuh
+                      warna dan kegembiraan. Peserta akan bergerak bersama dalam
+                      sebuah prosesi yang menampilkan keanekaragaman budaya, seni, dan
+                      tradisi. Acara ini tidak hanya menghibur, tetapi juga memperkuat
+                      ikatan komunitas, menciptakan kenangan tak terlupakan, dan
+                      merayakan kekayaan kultural yang dimiliki. Jangan lewatkan momen
+                      bersejarah ini yang dipenuhi dengan keceriaan dan semangat
+                      persatuan.
+                    </p>
                   </div>
-                  <p class="text-desc-2 text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ratione cumque dolorem optio impedit odio doloribus velit ipsam, aspernatur quas rem perferendis voluptates pariatur exercitationem, magnam quaerat numquam aut sed, qui suscipit ad maiores nesciunt cupiditate necessitatibus. Corrupti reprehenderit optio quidem, provident deserunt enim exercitationem ad perspiciatis nesciunt quibusdam ipsa omnis doloribus tenetur architecto mollitia placeat, similique cupiditate ipsum recusandae?</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card border-0">
+                  <img
+                    src="src/images/event.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body p-0">
+                    <div
+                      class="d-flex justify-content-between align-items-center mt-3"
+                    >
+                      <p class="text-desc-2 bold-600 m-0">22 Oktober 2022</p>
+                      <p class="text-desc-2 bold-600 m-0">07.00 - 19.00 WIB</p>
+                    </div>
+                    <h3 class="mt-2">
+                      <a href="./events/detail-event.html" class="heading-3"
+                        >Arak - Arakan Trusmi</a
+                      >
+                    </h3>
+                    <p class="text-desc-2 text-justify">
+                      Acara Arak-arakan pada tanggal 22 Oktober 2022 adalah perayaan
+                      meriah yang diadakan mulai pukul 07.00 hingga 19.00. Merupakan
+                      kesempatan untuk memeriahkan suasana dengan parade yang penuh
+                      warna dan kegembiraan. Peserta akan bergerak bersama dalam
+                      sebuah prosesi yang menampilkan keanekaragaman budaya, seni, dan
+                      tradisi. Acara ini tidak hanya menghibur, tetapi juga memperkuat
+                      ikatan komunitas, menciptakan kenangan tak terlupakan, dan
+                      merayakan kekayaan kultural yang dimiliki. Jangan lewatkan momen
+                      bersejarah ini yang dipenuhi dengan keceriaan dan semangat
+                      persatuan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card border-0">
+                  <img
+                    src="src/images/event.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body p-0">
+                    <div
+                      class="d-flex justify-content-between align-items-center mt-3"
+                    >
+                      <p class="text-desc-2 bold-600 m-0">22 Oktober 2022</p>
+                      <p class="text-desc-2 bold-600 m-0">07.00 - 19.00 WIB</p>
+                    </div>
+                    <h3 class="mt-2">
+                      <a href="./events/detail-event.html" class="heading-3"
+                        >Arak - Arakan Trusmi</a
+                      >
+                    </h3>
+                    <p class="text-desc-2 text-justify">
+                      Acara Arak-arakan pada tanggal 22 Oktober 2022 adalah perayaan
+                      meriah yang diadakan mulai pukul 07.00 hingga 19.00. Merupakan
+                      kesempatan untuk memeriahkan suasana dengan parade yang penuh
+                      warna dan kegembiraan. Peserta akan bergerak bersama dalam
+                      sebuah prosesi yang menampilkan keanekaragaman budaya, seni, dan
+                      tradisi. Acara ini tidak hanya menghibur, tetapi juga memperkuat
+                      ikatan komunitas, menciptakan kenangan tak terlupakan, dan
+                      merayakan kekayaan kultural yang dimiliki. Jangan lewatkan momen
+                      bersejarah ini yang dipenuhi dengan keceriaan dan semangat
+                      persatuan.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 px-4 d-grid flex-column gap-32">
-            <div class="card-blog">
-              <div class="card border-0 d-flex flex-row">
-                <div class="card-body p-0">
-                  <div class="d-flex flex-column justify-content-between h-100 pt-2 pb-4">
-                    <h3>
-                      <a href="detail-blog.html" class="heading-3">Tempat Wisata Pantai Kejawanan Kembali Dibuka</a>
-                    </h3>
-                    <p class="text-desc-2 bold-600 m-0">Admin • 8 Oktober 2022</p>
+        </div>
+      </section>
+      <!-- END : SECTION EVENT -->
+
+      <!-- START : SECTION ARTICLE -->
+      <section class="bg-white sectionArticle">
+        <div class="container section-padding">
+          <div
+            class="d-flex justify-content-between align-content-center mb-48"
+          >
+            <h2 class="heading-2">Artikel</h2>
+            <a href="./articles/index.html" class="btn btn-primary-80"
+              >Lihat Semua</a
+            >
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 px-4">
+              <div class="card-blog">
+                <div class="card border-0">
+                  <img
+                    src="./src/images/tari-topeng.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body p-0">
+                    <div class="text-desc-2 mt-3 bold-600">
+                      Admin • 10 Oktober 2022
+                    </div>
+                    <div class="heading-3 mt-3 mb-3">
+                      <h3>
+                        <a href="./articles/tari-topeng.html" class="heading-3"
+                          >Tari Topeng Cirebon</a
+                        >
+                      </h3>
+                    </div>
+                    <p class="text-desc-2 text-justify">
+                      Tari Topeng Cirebon (disebut juga beksan topeng Cerbon
+                      dalam Bahasa Cirebon) merupakan salah satu warisan budaya
+                      tari yang berasal dari wilayah kesultanan Cirebon.
+                      Asal-usulnya dapat ditelusuri kembali ke era Jawa Kuno di
+                      Jawa Timur. Dalam perkembangannya, tari topeng menyebar ke
+                      wilayah Jawa Tengah, Cirebon, bahkan hingga Banjar dan
+                      Kutai. Tarian ini berkembang luas di daerah Cirebon,
+                      meliputi Subang, Indramayu, Jatibarang, Majalengka,
+                      Losari, dan Brebes.
+                    </p>
                   </div>
                 </div>
-                <img src="src/images/Image-artikel.png" class="img-item-artikel rounded-1" alt="...">
               </div>
             </div>
-            <div class="card-blog">
-              <div class="card border-0 d-flex flex-row">
-                <div class="card-body p-0">
-                  <div class="d-flex flex-column justify-content-between h-100 pt-2 pb-4">
-                    <h3>
-                      <a href="detail-blog.html" class="heading-3">Tempat Wisata Pantai Kejawanan Kembali Dibuka</a>
-                    </h3>
-                    <p class="text-desc-2 bold-600 m-0">Admin • 8 Oktober 2022</p>
+            <div class="col-sm-12 col-md-6 px-4 d-grid flex-column gap-32">
+              <div class="card-blog">
+                <div class="card border-0 d-flex flex-row">
+                  <div class="card-body p-0">
+                    <div
+                      class="d-flex flex-column justify-content-between h-100 pt-2 pb-4"
+                    >
+                      <h3>
+                        <a href="./articles/kasepuhan.html" class="heading-3"
+                          >Keraton Kasepuhan</a
+                        >
+                      </h3>
+                      <p class="text-desc-2 bold-600 m-0">
+                        Admin • 9 Oktober 2022
+                      </p>
+                    </div>
                   </div>
+                  <img
+                    src="./src/images/kasepuhan.jpg"
+                    class="img-item-artikel rounded-1"
+                    alt="..."
+                  />
                 </div>
-                <img src="src/images/Image-artikel.png" class="img-item-artikel rounded-1" alt="...">
+              </div>
+              <div class="card-blog">
+                <div class="card border-0 d-flex flex-row">
+                  <div class="card-body p-0">
+                    <div
+                      class="d-flex flex-column justify-content-between h-100 pt-2 pb-4"
+                    >
+                      <h3>
+                        <a href="./articles/nadran.html" class="heading-3"
+                          >Adat Nadran Cirebon</a
+                        >
+                      </h3>
+                      <p class="text-desc-2 bold-600 m-0">
+                        Admin • 9 Oktober 2022
+                      </p>
+                    </div>
+                  </div>
+                  <img
+                    src="./src/images/nadran.jpg"
+                    class="img-item-artikel rounded-1"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="card-blog">
+                <div class="card border-0 d-flex flex-row">
+                  <div class="card-body p-0">
+                    <div
+                      class="d-flex flex-column justify-content-between h-100 pt-2 pb-4"
+                    >
+                      <h3>
+                        <a href="./articles/sunyaragi.html" class="heading-3"
+                          >Gua Sunyaragi Cirebon</a
+                        >
+                      </h3>
+                      <p class="text-desc-2 bold-600 m-0">
+                        Admin • 8 Oktober 2022
+                      </p>
+                    </div>
+                  </div>
+                  <img
+                    src="./src/images/sunyaragi.jpg"
+                    class="img-item-artikel rounded-1"
+                    alt="..."
+                  />
+                </div>
               </div>
             </div>
-            <div class="card-blog">
-              <div class="card border-0 d-flex flex-row">
-                <div class="card-body p-0">
-                  <div class="d-flex flex-column justify-content-between h-100 pt-2 pb-4">
-                    <h3>
-                      <a href="detail-blog.html" class="heading-3">Tempat Wisata Pantai Kejawanan Kembali Dibuka</a>
-                    </h3>
-                    <p class="text-desc-2 bold-600 m-0">Admin • 8 Oktober 2022</p>
-                  </div>
+          </div>
+        </div>
+      </section>
+      <!-- END : SECTION ARTICLE -->
+
+      <!-- START : SECTION NEWSLETTER -->
+      <section class="bg-white container section-padding sectionNewsletter">
+        <div class="bg-primary-80 rounded-3 row align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <h3 class="heading-3 text-white">Join Newsletter!</h3>
+            <p class="text-white">
+              Dapatkan informasi artikel dan event terbaru dari kami!
+            </p>
+          </div>
+          <form class="col-sm-12 col-md-6">
+            <div class="d-flex gap-3">
+              <input
+                type="text"
+                placeholder="Input email"
+                class="form-control"
+              />
+              <button type="search" class="btn btn-secondary">Join</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- END : SECTION NEWSLETTER -->
+    </main>
+    <!-- END : MAIN -->
+
+    <!-- START : FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row section-padding justify-content-center">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="src/images/Logo-dark.svg" alt="Cirebon Berbudaya" />
+            <p class="text-desc-1 mw-350 mt-3 mb-3">
+              Media Informasi dan Promosi kebudayaan cirebon
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12">
+            <p class="heading-4 bold-600 mb-4">Cirebon Budaya</p>
+            <ul>
+              <li><a href="#" class="text-desc-1 mb-2">Tentang</a></li>
+              <li><a href="#" class="text-desc-1 mb-2">Kontak</a></li>
+              <li><a href="#" class="text-desc-1">Artikel</a></li>
+              <li><a href="#" class="text-desc-1">Event</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12">
+            <p class="heading-4 bold-600 mb-4">Informasi</p>
+            <ul>
+              <li><a href="#" class="text-desc-1">Menjadi Partner</a></li>
+              <li><a href="#" class="text-desc-1">Menjadi Relawan</a></li>
+              <li><a href="#" class="text-desc-1">Join Komunitas</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-12">
+            <p class="heading-4 bold-600 mb-4">Dukungan</p>
+            <ul>
+              <li><a href="#" class="text-desc-1">Kebijakan Privasi</a></li>
+              <li><a href="#" class="text-desc-1">Kritik & Saran</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-lg-5 col-md-7 col-sm-12 contact">
+              <div class="row p-3">
+                <div class="col-md-6 col-sm-12" id="col-email">
+                  <p class="text-desc-1 bold-600 text-white mb-2">Email</p>
+                  <p class="text-desc-2 text-white">cirebonbudaya@cmail.com</p>
                 </div>
-                <img src="src/images/Image-artikel.png" class="img-item-artikel rounded-1" alt="...">
+                <div class="col-md-6 col-sm-12">
+                  <p
+                    class="text-desc-1 bold-600 text-white mb-2 ms-md-5 ms-sm-auto"
+                  >
+                    Telephone
+                  </p>
+                  <p class="text-desc-2 text-white ms-md-5 ms-sm-auto">
+                    0214 8888 9999
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="card-blog">
-              <div class="card border-0 d-flex flex-row">
-                <div class="card-body p-0">
-                  <div class="d-flex flex-column justify-content-between h-100 pt-2 pb-4">
-                    <h3>
-                      <a href="detail-blog.html" class="heading-3">Tempat Wisata Pantai Kejawanan Kembali Dibuka</a>
-                    </h3>
-                    <p class="text-desc-2 bold-600 m-0">Admin • 8 Oktober 2022</p>
-                  </div>
-                </div>
-                <img src="src/images/Image-artikel.png" class="img-item-artikel rounded-1" alt="...">
-              </div>
+          </div>
+          <hr class="txt-blue" />
+          <div
+            class="container d-flex justify-content-between align-items-center pb-3 flex-col"
+          >
+            <div class="copyright">
+              © Copyright 2022 <a href="#">STIKOM POLTEK CIREBON</a>
+            </div>
+            <div class="social-media">
+              <a href="#"
+                ><img
+                  src="src/images/instagram.png"
+                  alt="instagram cirebon berbudaya"
+              /></a>
+              <a href="#"
+                ><img
+                  src="src/images/linkedIn.png"
+                  alt="linkedin cirebon berbudaya"
+              /></a>
+              <a href="#"
+                ><img
+                  src="src/images/youtube.png"
+                  alt="youtube cirebon berbudaya"
+              /></a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- END : SECTION ARTICLE -->
+    </footer>
+    <!-- END : FOOTER -->
 
-    <!-- START : SECTION NEWSLETTER -->
-    <section class="bg-white container section-padding sectionNewsletter">
-      <div class="bg-primary-80 rounded-3 row align-items-center">
-        <div class="col-sm-12 col-md-6">
-          <h3 class="heading-3 text-white">Join Newsletter!</h3>
-          <p class="text-white">Dapatkan informasi artikel dan event terbaru dari kami! </p>
-        </div>
-        <form class="col-sm-12 col-md-6">
-          <div class="d-flex gap-3">
-            <input type="text" placeholder="Input email"
-            class="form-control">
-            <button type="search" class="btn btn-secondary">Join</button>
-          </div>
-        </form>
-      </div>
-      
-    </section>
-    <!-- END : SECTION NEWSLETTER -->
-
-
-  </main>
-  <!-- END : MAIN -->
-
-  <!-- START : FOOTER -->
-  <footer>
-    <div class="container">
-      <div class="row section-padding justify-content-center">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <img src="src/images/Logo-dark.svg" alt="Cirebon Berbudaya">
-          <p class="text-desc-1 mw-350 mt-3 mb-3">Media Informasi dan Promosi kebudayaan cirebon</p>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-12">
-          <p class="heading-4 bold-600 mb-4">Cirebon Budaya</p>
-          <ul>
-            <li><a href="#" class="text-desc-1 mb-2">Tentang</a></li>
-            <li><a href="#" class="text-desc-1 mb-2">Kontak</a></li>
-            <li><a href="#" class="text-desc-1">Artikel</a></li>
-            <li><a href="#" class="text-desc-1">Event</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-12">
-          <p class="heading-4 bold-600 mb-4">Informasi</p>
-          <ul>
-            <li><a href="#" class="text-desc-1">Menjadi Partner</a></li>
-            <li><a href="#" class="text-desc-1">Menjadi Relawan</a></li>
-            <li><a href="#" class="text-desc-1">Join Komunitas</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-12">
-          <p class="heading-4 bold-600 mb-4">Dukungan</p>
-          <ul>
-            <li><a href="#" class="text-desc-1">Kebijakan Privasi</a></li>
-            <li><a href="#" class="text-desc-1">Kritik & Saran</a></li>
-          </ul>
-        </div>
-        <div class="row">
-          <div class="col-lg-5 col-md-7 col-sm-12 contact">
-            <div class="row p-3">
-              <div class="col-md-6 col-sm-12" id="col-email">
-                <p class="text-desc-1 bold-600 text-white mb-2">Email</p>
-                <p class="text-desc-2 text-white">cirebonbudaya@cmail.com</p>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <p class="text-desc-1 bold-600 text-white mb-2 ms-md-5 ms-sm-auto">Telephone</p>
-                <p class="text-desc-2 text-white ms-md-5 ms-sm-auto">0214 8888 9999</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="txt-blue">
-        <div class="container d-flex justify-content-between align-items-center pb-3 flex-col">
-          <div class="copyright">
-            © Copyright 2022 <a href="#">STIKOM POLTEK CIREBON</a>
-          </div>
-          <div class="social-media">
-            <a href="#"><img src="src/images/instagram.png" alt="instagram cirebon berbudaya"></a>
-            <a href="#"><img src="src/images/linkedIn.png" alt="linkedin cirebon berbudaya"></a>
-            <a href="#"><img src="src/images/youtube.png" alt="youtube cirebon berbudaya"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- END : FOOTER -->
-
-
-
-  <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="src/js/main.js"></script>
-</body>
-
+    <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
 </html>

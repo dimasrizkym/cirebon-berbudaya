@@ -25,7 +25,7 @@ img {
 }
 
 .bg-gray {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 .bold-600 {
@@ -53,10 +53,11 @@ img {
 }
 
 .bg-primary-80 {
-  background-color: #1853B1;
+  background-color: #1853b1;
 }
 
-a.btn, button.btn {
+a.btn,
+button.btn {
   padding: 12px 20px;
   font-size: 16px;
   font-style: normal;
@@ -68,21 +69,25 @@ a.btn, button.btn {
 }
 
 .btn.btn-primary-80 {
-  background-color: #1853B1;
-  color: #FFFFFF;
+  background-color: #1853b1;
+  color: #ffffff;
 }
 
-.btn.btn-primary-80:hover, .btn.btn-primary-80:active, .btn.btn-primary-80:focus {
+.btn.btn-primary-80:hover,
+.btn.btn-primary-80:active,
+.btn.btn-primary-80:focus {
   background-color: #003486 !important;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 .btn.btn-secondary {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #374151;
 }
 
-.btn.btn-secondary:hover, .btn.btn-secondary:active, .btn.btn-secondary:focus {
+.btn.btn-secondary:hover,
+.btn.btn-secondary:active,
+.btn.btn-secondary:focus {
   background-color: #f1f1f1 !important;
   color: #374151;
 }
@@ -151,7 +156,7 @@ a.btn, button.btn {
 }
 
 .txt-blue {
-  color: #1853B1;
+  color: #1853b1;
 }
 
 .text-justify {
@@ -160,18 +165,19 @@ a.btn, button.btn {
 
 .container {
   max-width: 1200px;
+  overflow-x: hidden;
 }
 
 .navbar a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .navbar a:hover {
   text-decoration: underline;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 .navbar li {
@@ -180,10 +186,10 @@ a.btn, button.btn {
 
 header div.container h1 {
   max-width: 800px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 header p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .sectionBudayaCirebon .item-budaya-cirebon {
@@ -205,7 +211,7 @@ header p {
   width: 160px;
   height: 160px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .sectionNewsletter div.bg-primary-80 {
@@ -230,7 +236,7 @@ footer .mw-350 {
   max-width: 350px;
 }
 footer .contact {
-  background-color: #1853B1;
+  background-color: #1853b1;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -241,7 +247,7 @@ footer .section-padding {
   padding-bottom: unset;
 }
 footer span {
-  color: #3B82F6;
+  color: #3b82f6;
 }
 footer .social-media a {
   margin-left: 20px;
@@ -262,38 +268,45 @@ footer .social-media a {
   padding: 8px 12px;
 }
 
-.sectionDetailArtikel .head-articel, .sectionDetailEvent .head-articel {
+.sectionDetailArtikel .head-articel,
+.sectionDetailEvent .head-articel {
   max-width: 780px;
   margin-bottom: 32px;
 }
-.sectionDetailArtikel .head-articel span, .sectionDetailEvent .head-articel span {
+.sectionDetailArtikel .head-articel span,
+.sectionDetailEvent .head-articel span {
   padding: 2px 10px;
   border-radius: 16px;
-  background: #D9EBFA;
-  color: #1853B1;
+  background: #d9ebfa;
+  color: #1853b1;
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
 }
-.sectionDetailArtikel .head-articel p, .sectionDetailEvent .head-articel p {
+.sectionDetailArtikel .head-articel p,
+.sectionDetailEvent .head-articel p {
   margin-bottom: 0;
 }
-.sectionDetailArtikel img, .sectionDetailEvent img {
+.sectionDetailArtikel img,
+.sectionDetailEvent img {
   max-width: 978px;
   width: 100%;
   height: 500px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-.sectionDetailArtikel .body-articel, .sectionDetailEvent .body-articel {
+.sectionDetailArtikel .body-articel,
+.sectionDetailEvent .body-articel {
   max-width: 780px;
 }
-.sectionDetailArtikel .body-articel p, .sectionDetailEvent .body-articel p {
+.sectionDetailArtikel .body-articel p,
+.sectionDetailEvent .body-articel p {
   margin-bottom: 24px;
   text-align: justify;
 }
-.sectionDetailArtikel .body-articel h4, .sectionDetailEvent .body-articel h4 {
+.sectionDetailArtikel .body-articel h4,
+.sectionDetailEvent .body-articel h4 {
   margin-bottom: 24px;
 }
 
@@ -308,7 +321,7 @@ footer .social-media a {
   width: 150px;
   height: 150px;
   -o-object-fit: coverQ;
-     object-fit: coverQ;
+  object-fit: coverQ;
 }
 .ArtikelRekomendasi .artikel-rekomendasi .card-rekomendasi a {
   text-decoration: none !important;
@@ -320,8 +333,8 @@ footer .social-media a {
 .ArtikelRekomendasi .artikel-rekomendasi .card-rekomendasi span {
   padding: 2px 10px;
   border-radius: 16px;
-  background: #D9EBFA;
-  color: #1853B1;
+  background: #d9ebfa;
+  color: #1853b1;
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
@@ -335,8 +348,8 @@ footer .social-media a {
 .sectionDetailEvent .head-event span {
   padding: 2px 10px;
   border-radius: 16px;
-  background: #D9EBFA;
-  color: #1853B1;
+  background: #d9ebfa;
+  color: #1853b1;
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
@@ -350,7 +363,7 @@ footer .social-media a {
   width: 100%;
   height: 500px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .sectionDetailEvent .body-event {
   max-width: 780px;
@@ -375,6 +388,62 @@ footer .social-media a {
     width: 100% !important;
     height: auto;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
+
+/* Additional changes by akbar (animations & such) */
+
+
+p.text-desc-2.text-justify {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.item-budaya-cirebon{
+  overflow: hidden;
+  border-radius: 5px;
+  img{
+    object-fit: cover;
+    object-position: 20px right;
+    filter: brightness(70%);
+    transform: scale(1.5);
+    transition: transform .3s ease-in-out, filter .1s ease-in;
+  }
+  h4.text-white{
+    text-align: end;
+  }
+  p.text-white{
+    display: none;
+  }
+}
+
+.item-budaya-cirebon:hover{
+  img{
+    transform: scale(1);
+    filter: brightness(45%);
+  }
+  p.text-white{
+    display: block;
+    animation: fadeInUp .3s;
+}
+}
+/* 
+.card-rekomendasi{
+  img{
+    border-radius: 5px;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: filter .4s;
+  }
+}
+
+.card-rekomendasi:hover{
+  img{
+    filter: brightness(50%);
+  }
+  text-decoration: underline;
+} */
