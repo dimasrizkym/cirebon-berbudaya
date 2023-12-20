@@ -394,7 +394,6 @@ footer .social-media a {
 
 /* Additional changes by akbar (animations & such) */
 
-
 p.text-desc-2.text-justify {
   overflow: hidden;
   display: -webkit-box;
@@ -403,47 +402,51 @@ p.text-desc-2.text-justify {
   -webkit-box-orient: vertical;
 }
 
-.item-budaya-cirebon{
+.item-budaya-cirebon {
   overflow: hidden;
   border-radius: 5px;
-  img{
+  text-align: end;
+  img {
     object-fit: cover;
     object-position: 20px right;
-    filter: brightness(70%);
+    filter: brightness(80%);
     transform: scale(1.5);
-    transition: transform .3s ease-in-out, filter .1s ease-in;
+    transition: transform 0.3s ease-in-out, filter 0.1s ease-in;
   }
-  h4.text-white{
+  .text-white{
+    color: #d9ebfa;
+  }
+  h4.text-white {
     text-align: end;
   }
-  p.text-white{
+  p.text-white {
     display: none;
   }
 }
 
-.item-budaya-cirebon:hover{
-  img{
+.item-budaya-cirebon:hover,.item-budaya-cirebon:focus-within {
+  img {
     transform: scale(1);
     filter: brightness(45%);
   }
-  p.text-white{
+  p.text-white {
     display: block;
-    animation: fadeInUp .3s;
-}
-}
-/* 
-.card-rekomendasi{
-  img{
-    border-radius: 5px;
-    object-fit: cover;
-    filter: brightness(70%);
-    transition: filter .4s;
+    animation: fadeInUp 0.3s;
   }
 }
 
-.card-rekomendasi:hover{
-  img{
-    filter: brightness(50%);
+.card.border-0 {
+  *,p {
+    text-decoration: none !important;
   }
-  text-decoration: underline;
-} */
+}
+.card.border-0:hover {
+  img {
+    filter: brightness(75%);
+    transition: filter 0.3s ease-in-out;
+  }
+  h3.heading-3{
+    text-decoration: underline !important;
+    transition: text-decoration .3s ease;
+  }
+}
